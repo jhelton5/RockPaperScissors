@@ -1,0 +1,49 @@
+* {
+    background-image: url(Images/rock-paper-scissors-pattern-background-vector-4521145.jpg)
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+    height: 20em;
+}
+
+#computer-choice, #user-choice, #result {
+    background-image: none;
+}
+
+h2 {
+    background-image: none;
+    background-color: aquamarine;
+   
+ 
+
+}
+
+.game {
+    margin: 10em;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 2em;
+    border: 3px solid teal;
+    background-color: aquamarine;
+    background-image: none;
+    
+}
+
+button {
+    background-color: coral;
+    background-image: none;
+    border: 1px solid teal;
+    color: black;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
